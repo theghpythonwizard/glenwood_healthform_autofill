@@ -9,7 +9,8 @@ class WebDriver():
         # option.add_argument("--headless")
         # option.add_argument("disable-gpu")
 
-        self.browser = webdriver.Chrome(executable_path='/home/srujan/chromedriver', options=option)
+        self.browser = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options=option)
 
 if __name__ == '__main__':
     browser = WebDriver().browser
+    print(browser)
